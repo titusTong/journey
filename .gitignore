@@ -1,0 +1,11 @@
+.DS_Store
+node_modules
+static/.DS_Store
+.idea/*
+.idea/workspace.xml
+phpunit.xml
+npm-debug
+master
+app
+routers
+__MACOSX
