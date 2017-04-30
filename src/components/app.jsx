@@ -1,6 +1,5 @@
 import React from 'react';
-import MainLayout from '../layouts/MainLayout';
-import IndexView from './view/IndexView';
+import IndexView from './views/IndexView.jsx';
 
 
 const App = ({location})=>{
@@ -13,12 +12,9 @@ const App = ({location})=>{
 
 
 
-	return (
-		<MainLayout>
-			<View />
-		</MainLayout>
-	)
+	return (<View />)
 }
+
 
 
 
