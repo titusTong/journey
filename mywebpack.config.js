@@ -2,7 +2,11 @@ var path = require('path');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-	entry:'./src/components/app.jsx',
+	devtool:'cheap-eval-source-map',
+	entry:[
+		'webpack-dev-server/client?http://127.0.0.1:9000',
+		'./src/components/app.jsx',
+	],
 	output:{
 		path:path.resolve(__dirname, 'dist'),
 		filename:'js/index.js'
